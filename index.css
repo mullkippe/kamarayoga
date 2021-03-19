@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.top-wrapper {
+    background-color: rgba(149, 194, 182, 0.2);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: auto;
+}
+
+
+.top-wrapper h2 {
+    position: absolute;
+    top: 30px;
+    left: 37px;
+    z-index: 1;
+}
+
+.top-wrapper h2 span {
+    background-color: white;
+    padding: 13px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: rgb(51, 51, 51);
+    letter-spacing: .42em;
+}
+
+
+/* わからないところ */
+.toptext {
+    display: block;
+    max-width: 700px;
+    width: 70%;
+    column-count: 2;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    color: rgb(51, 51, 51);
+    letter-spacing: .15em;
+}
+
+
+.text-right {
+    text-align: right;
+    
+    padding-bottom: 40px;
+
+}
+ 
+.more-button {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    position: relative;    
+}
+.text-right a .more-button :hover {
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+
+
+
+/* とりあえずレッスン一覧に進みます */
+.lesson-wrapper {}
+
+.heading {
+    text-align: center;
+}
+
+.lesson-text {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    color: rgb(51, 51, 51);
+    padding-top: 20px;
+    padding-left: 0.2em;
+    font-size: 16px;
+    letter-spacing: .15em;
+}
+
+/* ↑lessontextがなぜ黒色に反映されないか聞く */
+
+/* div class=lessonsから */
+
+.menucontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+.lessons {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.lessons li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lessons ul {
+    display: flex;
+}
+
+.sheet {
+    background-color: #95c2b6;
+    padding: 7px 10px;
+    color: white;
+    margin-right: 10px;
+    letter-spacing: .15em;
+
+}
+
+
+.lessons p {
+    margin-bottom: 11px;
+    max-width: 408px;
+    word-wrap: normal;
+    color: rgb(51, 51, 51);
+    letter-spacing: 0.42em;
+    line-height: 2;
+    text-align: justify;
+    padding-left: -0.8em;
+    font-size: 12px;
+
+}
+
+.lesson-hover {}
+
+.lesson-hover img {
+    width: 100%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition: 0.8s;
+    transition: 1.5s ease;
+
+    
+}
+
+.lesson-hover :hover {
+    opacity: 0.8;
+    transition-duration: 0.3s;
+    transition: 1.5s ease;
+}
+
+
+
+/* newsarea cssここから */
+.newswrapper {
+    width: 94%;
+    max-width: 708px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.headingtwo h2 {
+    font-size: 30px;
+    font-family: "iroha-23kaede Regular";
+    padding-top: 190px;
+    color: rgb(51, 51, 51);
+
+}
+
+
+.headingtwo p.button-more {
+    font-size: 16px;
+    position: absolute;
+    top: 190px;
+    right: 20px;
+
+}
+
+.headingtwo .news {
+    color: #b21f6e;
+    padding-left: 25px;
+    padding-top: 9px;
+    padding-bottom: 47px;
+    font-weight: bold;
+    letter-spacing: .15em;
+}
+
+.event {
+    background-color: #95c2b6;
+    padding: 7px 0;
+    color: white;
+    width: 6em;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1em;
+    letter-spacing: .15em;
+}
+
+dt {
+    padding-bottom: 20px;
+    color: rgb(51, 51, 51);
+    letter-spacing: .10em;
+
+
+}
+
+dd {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    padding-left: 7em;
+    margin-bottom: 25px;
+
+    letter-spacing: .10em;
+
+}
+
+.newsarea a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+
+/* ブログareaは
+ここからです。
+＃＃＃＃＃＃＃＃＃＃                     */
+.blogwrapper {
+    max-width: 708px;
+    width: 94%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+
+.headingtwo {
+    max-width: 708px;
+    margin: 0 auto;
+}
+
+/* largeareaは
+ここからです。
+＃＃＃＃＃＃＃＃＃＃                     */
+
+.largearea {
+    margin-bottom: 20px;
+}
+
+.large-blog {
+    max-width: 708px;
+
+    margin: 0 auto;
+    display: flex;
+
+}
+
+
+.info-time {
+    color: rgb(51, 51, 51);
+
+}
+
+.large-blog {
+    position: relative;
+}
+
+.blog-info {
+    flex-basis: 50%;
+
+}
+
+.large {
+    margin-left: 35px;
+}
+
+.largearea a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    letter-spacing: .10em;
+    line-height: 1.5;
+
+    font-size: 0.9rem;
+}
+
+.blog-info h3 {
+    margin-top: 16px;
+    font-size: 1rem;
+    line-height: 1.65;
+}
+
+.blog-imgarea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* smallblogareaは
+ここからです。
+＃＃＃＃＃＃＃＃＃＃                     */
+.smallarea {
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.smallarea li {
+    flex-basis: 30%;
+}
+
+.smallarea a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    letter-spacing: .10em;
+    line-height: 1.5;
+    font-size: 12px;
+
+
+}
+
+.smallblog-area {
+    max-width: 30%;
+    margin: 0 auto;
+
+}
+
+a .small-title {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.event {
+    margin-top: 10px;
+    line-height: 1.65;
+}
+
+.small-title {
+    margin-top: 10px;
+    line-height: 1.65;
+}
+
+/* 20201109
+分からない、、
+ブログが大きく表示されるところと、小さく表示されるところを分け、
+小さく表示されるところのh3をクラス名変えて表示させたが、なんか表示されない。。
+
+＃＃＃＃＃＃＃＃＃＃                     */
